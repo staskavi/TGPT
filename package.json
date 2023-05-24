@@ -16,11 +16,14 @@
     "nodemon": "^2.0.22"
   },
   "dependencies": {
+    "@aws-sdk/client-polly": "^3.335.0",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "aws-sdk": "^2.1381.0",
     "axios": "^1.4.0",
     "config": "^3.3.9",
     "fluent-ffmpeg": "^2.1.2",
     "openai": "^3.2.1",
-    "telegraf": "^4.12.2"
+    "telegraf": "^4.12.2",
+    "v3": "^0.0.0"
   }
 }

@@ -5,7 +5,7 @@ import { createWriteStream } from 'fs'
 import { dirname, resolve } from 'path'
 import { fileURLToPath } from 'url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
-
+console.log("__DIRNAME:"+__dirname)/////////////////////////////////
 class OggConverter {
   constructor() {
     ffmpeg.setFfmpegPath(installer.path)
@@ -13,6 +13,8 @@ class OggConverter {
   toMp3(input, output) {
     try {
       const outputPath = resolve(dirname(input), `${output}.mp3`)
+      console.log("outputPath:"+outputPath)/////////////////////////////////
+
       return new Promise((resolve, reject) => {
         ffmpeg(input)
           .inputOption('-t 30')
@@ -28,6 +30,8 @@ class OggConverter {
   async create(url, filename) {
     try {
       const oggPath = resolve(__dirname, '../voices', `${filename}.ogg`)
+      console.log("oggPath:"+oggPath)/////////////////////////////////
+
       const response = await axios({
         method: 'get',
         url,
