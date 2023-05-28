@@ -1,8 +1,0 @@
-{ 
-    "TELEGRAM_TOKEN": "6098602544:AAE63bCybY1I3p860K3CH5d5hDowkbzCODc",
-    "OPENAI_KEY": "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",
-    "AWS_ACCESS_KEY_ID":  "AKIA5PHTHC4JCVGYBB5O",
-    "AWS_SECRET_ACCESS_KEY": "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",
-    "region": "us-east-1",
-    "signatureVersion": "v4"
- }
