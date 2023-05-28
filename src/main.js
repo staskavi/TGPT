@@ -51,6 +51,8 @@ bot.on(message("voice"), async (ctx) => {
     //removeVoices(oggPath)
     const text = await openai.transcription(mp3Path);
     await ctx.reply(code(`Your request: ${text}`));
+    removeVoices(oggPath)
+    removeVoices(mp3Path)
 
     ctx.session.messages.push({
       role: openai.roles.USER,
