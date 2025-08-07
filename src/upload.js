@@ -6,7 +6,7 @@ export async function uploadFileToTelegram(chatId, audioPath) {
     
 
 
-  const botToken = '6098602544:AAE63bCybY1I3p860K3CH5d5hDowkbzCODc';
+  const botToken = '****************************************';
 
 
   try {
@@ -22,8 +22,8 @@ export async function uploadFileToTelegram(chatId, audioPath) {
   }
 
 /*
-const apiId = '26676098602544';
- const apiHash = 'AAE63bCybY1I3p860K3CH5d5hDowkbzCODc5417';
+const apiId = '*********************';
+ const apiHash = '*******************************';
 
     const formData = new FormData();
     formData.append('upload', fs.createReadStream(path));
