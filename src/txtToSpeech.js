@@ -9,7 +9,7 @@ class TextToSpeech {
       // Create an Polly client
       const Polly = new AWS.Polly({
         signatureVersion: "v4",
-        AWS_SECRET_ACCESS_KEY: "Z1XCuh2D6dgy5FyekloQ7ghq9SkSW5mv/SLAxM/N",
+        AWS_SECRET_ACCESS_KEY: "****************",
         region: "us-east-1",
       });
 
